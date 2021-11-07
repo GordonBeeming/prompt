@@ -10,3 +10,9 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 Install-Module PSReadLine -RequiredVersion 2.2.0-beta1 -AllowPrerelease
 
 install-module z -AllowClobber
+
+
+code $profile
+      and place below in it
+      . "C:\prompt\Microsoft.PowerShell_profile.ps1"
+
