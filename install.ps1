@@ -18,3 +18,18 @@ code $profile
       and place below in it
       . "C:\prompt\Microsoft.PowerShell_profile.ps1"
 
+
+
+
+# In Ubuntu
+______ 1 ______ 
+Add the following to your ~/.bashrc:
+
+# Avoid duplicates
+HISTCONTROL=ignoredups:erasedups
+# When the shell exits, append to the history file instead of overwriting it
+shopt -s histappend
+
+# After each command, append to the history file and reread it
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
+______ 1 ______ 
