@@ -1,6 +1,6 @@
 winget install JanDeDobbeleer.OhMyPosh
 winget install github.cli
-winget install AzureCLI
+winget install -e --id Microsoft.AzureCLI
 
 
 # install fonts
