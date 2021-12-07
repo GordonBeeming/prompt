@@ -1,5 +1,7 @@
 winget install JanDeDobbeleer.OhMyPosh
 winget install github.cli
+winget install AzureCLI
+
 
 # install fonts
 # set font in vs code (should sync)
