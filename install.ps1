@@ -1,6 +1,7 @@
 winget install JanDeDobbeleer.OhMyPosh
 winget install github.cli
 winget install -e --id Microsoft.AzureCLI
+winget install -e --id Microsoft.AzureStorageExplorer
 
 
 # install fonts
