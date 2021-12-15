@@ -2,7 +2,27 @@ winget install JanDeDobbeleer.OhMyPosh
 winget install github.cli
 winget install -e --id Microsoft.AzureCLI
 winget install -e --id Microsoft.AzureStorageExplorer
+winget install -e --id Docker.DockerDesktop
+winget install -e --id Microsoft.VisualStudioCodeInsiders-User-x64
+winget install -e --id Microsoft.SQLServerManagementStudio
+winget install -e --id Mirantis.Lens
+winget install -e --id Notepad++.Notepad++
+winget install -e --id Microsoft.AzureDataStudio
+winget install -e --id Microsoft.VisualStudio.Enterprise
+winget install -e --id Microsoft.PowerBI
+winget install -e --id Microsoft.PowerShell
+winget install -e --id Microsoft.PowerToys
+winget install -e --id Postman.Postman
+winget install -e --id WhatsApp.WhatsApp
+winget install -e --id AgileBits.1Password
+winget install -e --id TortoiseGit.TortoiseGit
+winget install -e --id Inkscape.Inkscape
+winget install -e --id Telerik.FiddlerEverywhere
+winget install -e --id Keybase.Keybase
+winget install -e --id Canonical.Ubuntu
+winget install -e --id 7zip.7zip
 
+# winget upgrade --all
 
 # install fonts
 # set font in vs code (should sync)
