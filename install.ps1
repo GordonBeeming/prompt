@@ -1,4 +1,5 @@
 winget install JanDeDobbeleer.OhMyPosh
+winget install git.git
 winget install github.cli
 winget install -e --id Microsoft.AzureCLI
 winget install -e --id Microsoft.AzureStorageExplorer
