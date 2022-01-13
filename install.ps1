@@ -4,7 +4,7 @@ winget install github.cli
 winget install -e --id Microsoft.AzureCLI
 winget install -e --id Microsoft.AzureStorageExplorer
 winget install -e --id Docker.DockerDesktop
-winget install -e --id Microsoft.VisualStudioCodeInsiders-User-x64
+winget install -e vscode
 winget install -e --id Microsoft.SQLServerManagementStudio
 winget install -e --id Mirantis.Lens
 winget install -e --id Notepad++.Notepad++
