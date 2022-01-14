@@ -22,6 +22,7 @@ winget install -e --id Telerik.FiddlerEverywhere
 winget install -e --id Keybase.Keybase
 winget install -e --id Canonical.Ubuntu
 winget install -e --id 7zip.7zip
+winget install -e royalts
 
 # winget upgrade --all
 
