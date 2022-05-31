@@ -22,7 +22,9 @@ winget install -e --id Telerik.FiddlerEverywhere
 winget install -e --id Keybase.Keybase
 winget install -e --id Canonical.Ubuntu
 winget install -e --id 7zip.7zip
+winget install -e --id clsid2.mpc-hc
 
+# winget list
 # winget upgrade --all
 
 # install fonts
@@ -31,7 +33,7 @@ winget install -e --id 7zip.7zip
 
 Install-Module -Name Terminal-Icons -Repository PSGallery
 
-Install-Module PSReadLine -RequiredVersion 2.2.0-beta4 -AllowPrerelease
+Install-Module PSReadLine -RequiredVersion 2.2.5 -Force
 
 install-module z -AllowClobber
 
