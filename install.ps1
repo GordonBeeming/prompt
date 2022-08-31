@@ -41,7 +41,18 @@ code $profile
       and place below in it
       . "C:\prompt\Microsoft.PowerShell_profile.ps1"
 
+git config --global gpg.program "C:\Program Files\Git\usr\bin\gpg.exe"
+git config --global tag.forceSignAnnotated true
+git config --global init.defaultbranch main
+git config --global commit.gpgsign true
+git config --global user.name "Gordon Beeming"
 
+git config --global user.email "gordon@devstarops.com"
+git config --global user.email "xxxxxxxxx"
+
+git config --global user.signingkey xxxxxxxxx
+
+git config --global --add safe.directory C:/prompt
 
 
 # In Ubuntu
