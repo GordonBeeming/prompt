@@ -5,6 +5,7 @@ winget install -e --id Microsoft.AzureCLI
 winget install -e --id Microsoft.AzureStorageExplorer
 winget install -e --id Docker.DockerDesktop
 winget install -e vscode
+winget install -e --id Microsoft.VisualStudioCodeInsiders-User-x64
 winget install -e --id Microsoft.SQLServerManagementStudio
 winget install -e --id Mirantis.Lens
 winget install -e --id Notepad++.Notepad++
@@ -22,8 +23,10 @@ winget install -e --id Telerik.FiddlerEverywhere
 winget install -e --id Keybase.Keybase
 winget install -e --id Canonical.Ubuntu
 winget install -e --id 7zip.7zip
+winget install -e --id clsid2.mpc-hc
 winget install -e royalts
 
+# winget list
 # winget upgrade --all
 
 # install fonts
@@ -32,7 +35,7 @@ winget install -e royalts
 
 Install-Module -Name Terminal-Icons -Repository PSGallery
 
-Install-Module PSReadLine -RequiredVersion 2.2.0-beta4 -AllowPrerelease
+Install-Module PSReadLine -RequiredVersion 2.2.5 -Force
 
 install-module z -AllowClobber
 
@@ -40,6 +43,8 @@ install-module z -AllowClobber
 code $profile
       and place below in it
       . "C:\prompt\Microsoft.PowerShell_profile.ps1"
+
+
 
 git config --global gpg.program "C:\Program Files\Git\usr\bin\gpg.exe"
 git config --global tag.forceSignAnnotated true
@@ -53,6 +58,7 @@ git config --global user.email "xxxxxxxxx"
 git config --global user.signingkey xxxxxxxxx
 
 git config --global --add safe.directory C:/prompt
+
 
 
 # In Ubuntu
