@@ -25,6 +25,7 @@ winget install -e --id Canonical.Ubuntu
 winget install -e --id 7zip.7zip
 winget install -e --id clsid2.mpc-hc
 winget install -e royalts
+winget install -e --id JGraph.Draw # draw.io
 
 # winget list
 # winget upgrade --all
