@@ -32,6 +32,7 @@ winget install -e --id JGraph.Draw # draw.io
 
 # install fonts
 # set font in vs code (should sync)
+      # "editor.fontFamily": "'CaskaydiaCove NF', Consolas, 'Courier New', monospace",
 # set font in terminal
 
 Install-Module -Name Terminal-Icons -Repository PSGallery
