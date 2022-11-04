@@ -26,6 +26,10 @@ winget install -e --id 7zip.7zip
 winget install -e --id clsid2.mpc-hc
 winget install -e royalts
 winget install -e --id JGraph.Draw # draw.io
+winget install -e --id Microsoft.AzureStorageEmulator
+winget install -e --id Microsoft.AzureCosmosEmulator
+winget install -e --id Nodist.Nodist
+
 
 # winget list
 # winget upgrade --all
