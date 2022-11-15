@@ -30,6 +30,11 @@ winget install -e --id Microsoft.AzureStorageEmulator
 winget install -e --id Microsoft.AzureCosmosEmulator
 winget install -e --id Nodist.Nodist
 
+winget install Microsoft.DotNet.SDK.6
+winget install Microsoft.DotNet.SDK.7
+
+dotnet tool install --global PowerShell
+dotnet tool install --global dotnet-ef
 
 # winget list
 # winget upgrade --all
