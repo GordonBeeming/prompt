@@ -5,7 +5,6 @@ winget install -e --id Microsoft.AzureCLI
 winget install -e --id Microsoft.AzureStorageExplorer
 winget install -e --id Docker.DockerDesktop
 winget install -e vscode
-winget install -e --id Microsoft.VisualStudioCodeInsiders-User-x64
 winget install -e --id Microsoft.SQLServerManagementStudio
 winget install -e --id Mirantis.Lens
 winget install -e --id Notepad++.Notepad++
@@ -28,7 +27,8 @@ winget install -e royalts
 winget install -e --id JGraph.Draw # draw.io
 winget install -e --id Microsoft.AzureStorageEmulator
 winget install -e --id Microsoft.AzureCosmosEmulator
-winget install -e --id Nodist.Nodist
+
+# install NVM
 
 winget install Microsoft.DotNet.SDK.6
 winget install Microsoft.DotNet.SDK.7
