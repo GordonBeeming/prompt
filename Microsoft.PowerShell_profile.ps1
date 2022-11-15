@@ -43,6 +43,10 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
 # without that option, the cursor will remain at the position it was
 # when you used up arrow, which can be useful if you forget the exact
 # string you started the search on.
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+# Menu for auto-completing so you dont tab past the thing 
+# you want and go in circles.
+
 Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 
