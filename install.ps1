@@ -36,6 +36,8 @@ winget install Microsoft.DotNet.SDK.7
 dotnet tool install --global PowerShell
 dotnet tool install --global dotnet-ef
 
+choco install devtoys
+
 # winget list
 # winget upgrade --all
 
