@@ -38,6 +38,9 @@ dotnet tool install --global dotnet-ef
 
 choco install devtoys
 
+winget install Dapr.CLI
+
+
 # winget list
 # winget upgrade --all
 
