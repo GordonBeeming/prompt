@@ -1,6 +1,6 @@
-winget install JanDeDobbeleer.OhMyPosh
-winget install git.git
-winget install github.cli
+winget install -e JanDeDobbeleer.OhMyPosh
+winget install -e git.git
+winget install -e github.cli
 winget install -e --id Microsoft.AzureCLI
 winget install -e --id Microsoft.AzureStorageExplorer
 winget install -e --id Docker.DockerDesktop
@@ -30,8 +30,9 @@ winget install -e --id Microsoft.AzureCosmosEmulator
 
 # install NVM
 
-winget install Microsoft.DotNet.SDK.6
-winget install Microsoft.DotNet.SDK.7
+winget install -e Microsoft.DotNet.SDK.6
+winget install -e Microsoft.DotNet.SDK.7
+winget install -e Microsoft.DotNet.SDK.8
 
 dotnet tool install --global PowerShell
 dotnet tool install --global dotnet-ef
@@ -62,16 +63,18 @@ code $profile
 
 
 
-git config --global gpg.program "C:\Program Files\Git\usr\bin\gpg.exe"
+# install https://www.gpg4win.org/
+winget install -e --id GnuPG.Gpg4win
+git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
+
+git config --global user.name "xxxxxxx"
+git config --global user.email "xxxxxxx"
+git config --global user.signkey "xxxxxxxxxxx"
+
+# git config --global gpg.program "C:\Program Files\Git\usr\bin\gpg.exe"
 git config --global tag.forceSignAnnotated true
 git config --global init.defaultbranch main
 git config --global commit.gpgsign true
-git config --global user.name "Gordon Beeming"
-
-git config --global user.email "gordon@devstarops.com"
-git config --global user.email "xxxxxxxxx"
-
-git config --global user.signingkey xxxxxxxxx
 
 git config --global --add safe.directory C:/prompt
 
