@@ -1,6 +1,6 @@
 winget install -e JanDeDobbeleer.OhMyPosh
-winget install -e git.git
-winget install -e github.cli
+winget install -e Git.Git
+winget install -e GitHub.cli
 winget install -e --id Microsoft.AzureCLI
 winget install -e --id Microsoft.AzureStorageExplorer
 winget install -e --id Docker.DockerDesktop
@@ -25,14 +25,13 @@ winget install -e --id 7zip.7zip
 winget install -e --id clsid2.mpc-hc
 winget install -e royalts
 winget install -e --id JGraph.Draw # draw.io
-winget install -e --id Microsoft.AzureStorageEmulator
-winget install -e --id Microsoft.AzureCosmosEmulator
 
 # install NVM
 
 winget install -e Microsoft.DotNet.SDK.6
 winget install -e Microsoft.DotNet.SDK.7
 winget install -e Microsoft.DotNet.SDK.8
+winget install -e Microsoft.DotNet.SDK.Preview
 
 dotnet tool install --global PowerShell
 dotnet tool install --global dotnet-ef
