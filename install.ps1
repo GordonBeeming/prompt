@@ -44,6 +44,9 @@ winget install Dapr.CLI
 # winget list
 # winget upgrade --all
 
+# download fonts from 
+# https://github.com/githubnext/monaspace#monaspace
+#
 # install fonts
 # set font in vs code (should sync)
       # "editor.fontFamily": "'CaskaydiaCove NF', Consolas, 'Courier New', monospace",
