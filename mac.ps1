@@ -1,0 +1,1 @@
+brew install gnupg yubikey-personalization hopenpgp-tools ykman pinentry-mac wget
